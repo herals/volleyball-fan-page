@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volleyball Fan Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+            color: #333;
+        }
+        header {
+            background-color: #ff5722;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ffab91;
+            padding: 0.5rem;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 2rem;
+            background: url('volleyball-hero.jpg') no-repeat center/cover;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 3rem;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 1rem;
+            gap: 1rem;
+            justify-content: center;
+        }
+        .card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            width: 300px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card h3 {
+            margin: 0;
+            padding: 0.5rem;
+            background-color: #ffab91;
+            color: white;
+        }
+        .card p {
+            padding: 0.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #ff5722;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Volleyball World!</h1>
+        <p>Your ultimate destination for volleyball fans</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#legends">Legends</a>
+        <a href="#events">Famous Events</a>
+        <a href="#types">Types of Volleyball</a>
+    </nav>
+    <section class="hero">
+        <h1>Spike, Serve, and Smash!</h1>
+        <p>Join us in celebrating the passion of volleyball</p>
+    </section>
+    <section class="content" id="legends">
+        <div class="card">
+            <img src="legend1.jpg" alt="Legendary Player 1">
+            <h3>Karch Kiraly</h3>
+            <p>Known as one of the greatest players, Kiraly excelled in both indoor and beach volleyball, winning Olympic golds.</p>
+        </div>
+        <div class="card">
+            <img src="legend2.jpg" alt="Legendary Player 2">
+            <h3>Giba</h3>
+            <p>Brazilian icon who led his team to numerous championships with his outstanding skills and leadership.</p>
+        </div>
+        <div class="card">
+            <img src="legend3.jpg" alt="Legendary Player 3">
+            <h3>Misty May-Treanor</h3>
+            <p>A dominant figure in beach volleyball, she won three Olympic gold medals with her partner Kerri Walsh Jennings.</p>
+        </div>
+    </section>
+    <section class="content" id="events">
+        <div class="card">
+            <img src="event1.jpg" alt="Event 1">
+            <h3>FIVB World Championship</h3>
+            <p>An international competition featuring the best teams battling for the title of world champion.</p>
+        </div>
+        <div class="card">
+            <img src="event2.jpg" alt="Event 2">
+            <h3>Olympic Games</h3>
+            <p>The pinnacle of volleyball competitions, showcasing top talent from around the globe in both indoor and beach volleyball.</p>
+        </div>
+        <div class="card">
+            <img src="event3.jpg" alt="Event 3">
+            <h3>Beach Volleyball World Tour</h3>
+            <p>An annual series of tournaments held across stunning locations, celebrating the spirit of beach volleyball.</p>
+        </div>
+    </section>
+    <section class="content" id="types">
+        <div class="card">
+            <img src="indoor.jpg" alt="Indoor Volleyball">
+            <h3>Indoor Volleyball</h3>
+            <p>Played on a hard court with six players per team, it's the classic version of the sport.</p>
+        </div>
+        <div class="card">
+            <img src="beach.jpg" alt="Beach Volleyball">
+            <h3>Beach Volleyball</h3>
+            <p>Played on sand with teams of two, it's known for its dynamic and fast-paced action.</p>
+        </div>
+        <div class="card">
+            <img src="sitting.jpg" alt="Sitting Volleyball">
+            <h3>Sitting Volleyball</h3>
+            <p>An inclusive variation designed for athletes with disabilities, played on a smaller court.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Volleyball Fan Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
